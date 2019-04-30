@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -14,14 +15,14 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="blue lighten-1">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo center">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="#" class="brand-logo center">Sistema de seguimiento de solicitudes y actividades</a>
+            <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
                 <li><a href="collapsible.html">JavaScript</a></li>
-            </ul>
+            </ul> -->
         </div>
     </nav>
 
@@ -31,29 +32,43 @@
                 <div class="card white">
                     <div class="card-content">
                         <div class="row">
-                            <table class="responsive-table">
+                            <table class="centered-table">
                                 <thead>
                                     <tr>
-                                        <th>Name</th>
-                                        <th>Item Name</th>
-                                        <th>Item Price</th>
+                                        <th>Nombre</th>
+                                        <th>Tipo</th>
+                                        <th>Responsables</th>
+                                        <th>Estado</th>
+                                        <th colspan="3" class="center">Acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
+                                        <td>Solicitud de información de historial academico del Dr. John Doe</td>
+                                        <td>solicitud</td>
+                                        <td>Adrian Acosta, José Menendez</td>
+                                        <td>En proceso</td>
+                                        <td><i class="material-icons center">visibility</i></td>
+                                        <td><i class="material-icons center">edit</i></td>
+                                        <td><i class="material-icons center">delete</i></td>
                                     </tr>
                                     <tr>
-                                        <td>Alan</td>
-                                        <td>Jellybean</td>
-                                        <td>$3.76</td>
+                                        <td>Apertura de nuevo curso en Nanotecnología</td>
+                                        <td>actividad</td>
+                                        <td>Pablo Balboa</td>
+                                        <td>Terminada</td>
+                                        <td><i class="material-icons center">visibility</i></td>
+                                        <td><i class="material-icons center">edit</i></td>
+                                        <td><i class="material-icons center">delete</i></td>
                                     </tr>
                                     <tr>
-                                        <td>Jonathan</td>
-                                        <td>Lollipop</td>
-                                        <td>$7.00</td>
+                                        <td>Solicitud de compra de Telescopio refractor.</td>
+                                        <td>solicitud</td>
+                                        <td>Monica Muñoz</td>
+                                        <td>En proceso</td>
+                                        <td><i class="material-icons center">visibility</i></td>
+                                        <td><i class="material-icons center">edit</i></td>
+                                        <td><i class="material-icons center">delete</i></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -65,9 +80,9 @@
     </div>
 
     <div class="footer-fixed">
-        <footer class="red lighten-2">
-            <nav class="z-depth-0">
-                <div class="nav-wrapper">
+        <footer>
+            <nav class="z-depth-0 blue lighten-1">
+                <!-- <div class="nav-wrapper">
                     <ul class="justify">
                         <li><a href="#!"><i class="material-icons">filter</i></a></li>
                         <li><a href="#!"><i class="material-icons">chat_bubble</i></a></li>
@@ -75,7 +90,7 @@
                         <li><a href="#!"><i class="material-icons">camera_alt</i></a></li>
                         <li><a href="#!"><i class="material-icons">camera_roll</i></a></li>
                     </ul>
-                </div>
+                </div> -->
             </nav>
         </footer>
     </div>
