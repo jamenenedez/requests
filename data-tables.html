@@ -852,36 +852,55 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h2>Solicitudes
-                            <!-- <small>Ensure that the data attribute [data-identifier="true"] is set on one column header.</small> -->
-                        </h2>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <h2>Solicitudes</h2>
+                            </div>
+                            <div style="float: right">
+                                <button class="btn btn-primary waves-effect">Adicionar Solicitud</button>
+                            </div>
+                        </div>
                     </div>
+
 
                     <table id="data-table-command" class="table table-striped table-vmiddle">
                         <thead>
                             <tr>
-                                <th dat a-column-id="id" data-type="text">Descripción</th>
-                                <th data-column-id="sender">Estado</th>
-                                <!-- <th data-column-id="received" data-order="desc">Received</th>
-                                    <th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th> -->
+                                <th data-column-id="title" data-type="text">Titulo</th>
+                                <th data-column-id="desctiption" data-type="text">Descripción</th>
+                                <th data-column-id="report_date" data-order="desc">Fecha de Reporte</th>
+                                <th data-column-id="priority" data-order="desc">Prioridad</th>
+                                <th data-column-id="status">Estado</th>
+                                <th data-column-id="commands" data-formatter="commands" data-sortable="false">Acciones</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Compra de partes para microscopio electrónico</td>
+                                <td>Compra de partes para microscopio electrónico correspondiente al año 2019</td>
+                                <td>25/02/2018</td>
+                                <td>Alta</td>
                                 <td>En proceso</td>
                             </tr>
                             <tr>
-                                <td>Creación de diplomado en nano ciencias de materiales de la construcción
-                                </td>
+                                <td>Creación de diplomado en nano ciencias de materiales de la construcción</td>
+                                <td>Creación de diplomado en nano ciencias de materiales de la construcción con el objetivo de masificar los grandes de avances de esta ciencia en el área</td>
+                                <td>Compra de partes para microscopio electrónico</td>
+                                <td>Baja</td>
                                 <td>Terminada</td>
                             </tr>
                             <tr>
                                 <td>Compra de partes para telescopio de la facultad de Astronomía</td>
+                                <td>Compra de partes para telescopio de la facultad de Astronomía para realizar estudios de las constelaciones de Casiopea y Orion</td>
+                                <td>Compra de partes para microscopio electrónico</td>
+                                <td>Media</td>
                                 <td>Terminada</td>
                             </tr>
                             <tr>
                                 <td>Preparación de comienzo de curso lectivo</td>
+                                <td>Compra de partes para microscopio electrónico</td>
+                                <td>Compra de partes para microscopio electrónico</td>
+                                <td>Media</td>
                                 <td>En proceso</td>
                             </tr>
                         </tbody>
